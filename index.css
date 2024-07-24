@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+   --color_text: blue;
+   --colorr-connexion: #7286D3;
+   --font-color: #ddd3d3;
+   --font: "Poppins", sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: var(--font-family);
+    align-items: ;
+}
+.FORM{
+    display: flex;
+    padding-top: 2rem;
+}
+.entete>h1{
+    font-size: 2rem;
+    font-weight: 500;
+    padding-right: 10rem;
+    font-family: var(--font);
+}
+.formulaire{
+    /* background-color: aqua; */
+    padding-right: 10rem;
+    padding-top: 3rem;
+}
+.image{
+    width: 700px;
+    height: 719px;
+}
+.adresse > h3{
+    font-family: var(--font);
+}
+.mail{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    border: rgb(194, 190, 190) solid;
+    height: 5rem;
+    width: 100%;
+    border-radius: 9px;
+    gap: 3rem;
+    padding-left: 2rem;
+    
+}
+.mail > input{
+    width: 100%;
+    outline: none;
+}
+.MDP{
+    display: flex;
+    flex-direction: row;
+    border: rgb(194, 190, 190) solid; 
+    height: 5rem;
+    border-radius: 9px;
+    gap: 3rem;
+    padding-left: 2rem;
+    width: 100%;
+}
+.MDP > input{
+    width: 100%;
+    outline: none;
+}
+h1{
+    text-align: center;
+    padding-left: 15rem;
+}
+.oublier{
+    display: flex;
+    justify-content:end;
+}
+a{
+    color:var(--color_text) ;
+    
+}
+.line{
+    display: flex;
+    align-items: center;
+}
+hr{
+    border:1px black solid;
+    width: 100%;
+}
+.connexion{
+   width: 50%;
+   align-self: center;
+   /* padding-top: 2rem ; */
+   border-radius: 10rem;
+   font-size: 1rem;
+   font-weight: 400;
+   color: var(--font-color);
+   cursor: pointer;
+   background-color: var(--colorr-connexion);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-left: 3rem;
+   height: 6rem;
+   padding-right: 3rem;
+}
+button{
+    padding: 2rem;
+    border-radius: .5rem;
+    color:white;
+    background-color: var(--colorr-connexion);
+    margin-left: 45%;
+}
+.oublier > p{
+    font-family: var(--font);
+}
+.connexion>h2{
+    width: 30%;
+   font-family: var(--font);
+    color:white
+}
+.icon{
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+   padding-top: 4rem;
+}
+.icon > a{
+    background-color: var(--font-color);
+    border-radius: 50%;
+    height: 2rem;
+}

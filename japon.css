@@ -1,0 +1,22 @@
+html{
+    font-size: 10px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: o;
+    overflow: hidden;
+    background-color: #ffffff;
+    display: flex;
+}
+.red-circle{
+width: 35rem;
+height: 35rem;
+background-color: red;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+
+}
